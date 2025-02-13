@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+
+body{
+  background-color:gray;
+  padding-top: 60px;
+  display: flex;
+  
+  padding-left:170px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.card{
+  margin: 5px;  
+  background-color: white;
+  width: 325px;
+  height: 480px;
+  border-radius: 10px;
+}
+.image{
+  padding: 10px;
+}
+.image img {
+  border-radius: 10px;
+}
+
+.capsules{
+  padding: 4px 11px;
+}
+
+.capsules span{
+  border: 1px solid gray;
+  padding: 0px 6px;
+  border-radius: 10px;
+}
+.content{
+  padding: 15px 15px;
+}
+
+.content p {
+  padding: 10px 4px;
+  font-size: 17px;
+  font-family: 'Dancing Script';
+}
+
+.button{
+  text-align: center;
+}
+.button button {
+  padding: 7px 9px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(171, 171, 247);
+  color: rgb(60, 85, 196);
+  cursor: pointer;
+}
